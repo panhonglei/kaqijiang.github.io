@@ -1,0 +1,19 @@
+markdown: kramdown
+rouge: rouge
+
+# 作者信息
+author:
+  name: Elirc Hou
+  email: kaqijiang@gamil.com
+  # link: http://zhenchen.me
+  # weibo: http://weibo.com/markchentl
+  github: http://github.com/kaqijiang
+
+# 站点信息
+title: G Blog
+description: G的博客
+# url: http://zhenchen.me
+language: 中文
+
+exclude: ['vendor', 'README.md', 'Gemfile', 'Gemfile.lock', 'config.ru', 'unicorn.rb', 'Procfile']
+ 
