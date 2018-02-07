@@ -20,7 +20,7 @@ id result = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMu
 NSLog(@"result %@", result);
 ```
 
-####object to jsonString
+#### object to jsonString
 
 ```objectivec
 NSDictionary *dict = @{@"test":@"abc"};
@@ -30,9 +30,9 @@ NSString *jsonString = [[NSString alloc] initWithData:data encoding:NSUTF8String
 NSLog(@"jsonString %@", jsonString);
 ```
 
-##NSJSONReadingOptions说明
+## NSJSONReadingOptions说明
 
-####先看定义
+#### 先看定义
 
 ```objectivec
 typedef NS_OPTIONS(NSUInteger, NSJSONReadingOptions) {
@@ -42,7 +42,7 @@ typedef NS_OPTIONS(NSUInteger, NSJSONReadingOptions) {
 } NS_ENUM_AVAILABLE(10_7, 5_0);
 ```
 
-####再看官方文档的说明
+#### 再看官方文档的说明
 
 `NSJSONReadingMutableContainers`<br>
 Specifies that arrays and dictionaries are created as mutable objects.
@@ -54,7 +54,7 @@ Specifies that leaf strings in the JSON object graph are created as instances of
 Specifies that the parser should allow top-level objects that are not an instance of NSArray or NSDictionary.
 
 
-####解释一下
+#### 解释一下
 
 `NSJSONReadingMutableContainers`<br>
 意思是返回的数组和字典都是**NSMutableArray**和**NSMutableDictionay**类型，固可以作后续修改。
@@ -65,7 +65,7 @@ Specifies that the parser should allow top-level objects that are not an instanc
 `NSJSONReadingAllowFragments`<br>
 意思是需要格式化的json字符串最外层可以不是数组和字典，只要是正确的json格式就行。
 
-####总结
+#### 总结
 
 如果需要后续进行修改，则需要使用`NSJSONReadingMutableContainers`，返回可变类型，其他的选项中的数字和字典都是不可变的。
 
@@ -87,9 +87,9 @@ Numbers are not NaN or infinity.
 
 ---
 
-##NSJSONReadingOptions说明
+## NSJSONReadingOptions说明
 
-####先看定义
+#### 先看定义
 
 ```objectivec
 typedef NS_OPTIONS(NSUInteger, NSJSONWritingOptions) {
@@ -97,7 +97,7 @@ typedef NS_OPTIONS(NSUInteger, NSJSONWritingOptions) {
 } NS_ENUM_AVAILABLE(10_7, 5_0);
 ```
 
-####再看官方文档的说明
+#### 再看官方文档的说明
 
 `NSJSONWritingPrettyPrinted`<br>
 Specifies that the JSON data should be generated with whitespace designed to make the output more readable. If this option is not set, the most compact possible JSON representation is generated.
