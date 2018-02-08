@@ -1,3 +1,14 @@
+---
+date: 2018-02-08 15:27:31
+layout: post
+title: JSONSerialization及参数详解
+category: Swift
+tags: Swift
+keywords: JSONSerialization ReadingOptions mutableContainers mutableLeaves allowFragments WritingOptions prettyPrinted
+description: JSONSerialization及参数详解
+---
+
+
 JSONSerialization及参数详解
 
 
