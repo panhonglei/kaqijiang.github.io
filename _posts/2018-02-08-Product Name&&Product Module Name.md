@@ -13,7 +13,7 @@ product module name 产品模块名称
 
 product name    产品名称
 
---
+
 > 路径
 
 > Target->Build Settings->all->packaging 
@@ -46,3 +46,4 @@ guard let viewController = VcClass as? UIViewController.Type else {
     print("类型转换失败")
     return
 }
+```
