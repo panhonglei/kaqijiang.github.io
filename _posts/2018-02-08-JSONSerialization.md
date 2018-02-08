@@ -1,17 +1,9 @@
----
-date: 2018-02-08 16:27:31
-layout: post
-title: JSONSerialization及参数详解
-category: Swift
-tags: Swift
-keywords: JSONSerialization ReadingOptions mutableLeaves allowFragments WritingOptions prettyPrinted sortedKeys
-description: JSONSerialization及参数详解
----
+JSONSerialization及参数详解
 
 
 ### JSONSerialization文档中的解释
 
-___
+
 >  A class for converting JSON to Foundation objects and converting Foundation objects to JSON.
 > 
 >  An object that may be converted to JSON must have the following properties:
@@ -24,23 +16,22 @@ ___
 > 
 > - NSNumbers are not NaN or infinity
 
-___
+
 > > #### 将JSON转换为Foundation对象并将Foundation对象转换为JSON的类。
-> 
+> >
 > > #### 可以转换为JSON的对象必须具有以下属性：
-> 
+> >
 > >- 顶级对象是一个NSArray或NSDictionary
-> 
+> >
 > >- 所有对象都是NSString，NSNumber，NSArray，NSDictionary或NSNull
-> 
+> >
 > >- 所有字典键都是NSStrings
 > >- NSNumbers不是NaN或无穷大
 
-___
 
 
 ### JSONSerialization继承自NSObject,包含以下类方法
----
+
 
 >  - #### open class func isValidJSONObject(_ obj: Any) -> Bool<br>
 对象可以转换为JSON数据，则返回YES，否则返回NO
@@ -63,7 +54,7 @@ ___
 	- 从JSON数据流创建一个JSON对象。 该流应该打开并配置。 
 	- 此方法的所有其他行为与JSONObjectWithData：options：error：方法相同。
 
----
+
 ### 参数
 
 
@@ -79,8 +70,7 @@ ___
 > #### allowFragments
 - 需要格式化的json字符串最外层可以不是数组和字典，只要是正确的json格式就行。
 
---
-
+-
 
 > #### WritingOptions
 - 写入JSON数据的选项。
