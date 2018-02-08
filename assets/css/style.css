@@ -635,7 +635,7 @@ iframe {
 }
 #QR img {
   width: 180px;
-  max-width: 100%;
+  max-width: 45%;
   display: inline-block;
   margin: 0.8em 2em 0 2em;
 }
