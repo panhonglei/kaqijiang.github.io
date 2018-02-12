@@ -12,12 +12,12 @@ if ($(window).width() <= 1280) {
 
 // Variables
     tag1       = $('.pl__all'),
-    tag2       = $('.ios'),
+    tag2       = $('.iOS'),
     tag3       = $('.Swift'),
     tag4       = $('.Python'),
     tag5       = $('.Mac工具'),
-    tag6       = $('.other'),
-    tag7       = $('.about');
+    tag6       = $('.Other'),
+    tag7       = $('.About');
     // tag7       = $('.about');
 
 var sidebar    = $('#sidebar'),
