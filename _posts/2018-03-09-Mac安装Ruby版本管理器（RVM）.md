@@ -31,18 +31,21 @@ cd /System/Library/Frameworks/Ruby.framework/Versions;sudo rm Current; sudo ln -
 
 ```
 which ruby
+
 ```
 
 如果您使用的是Ruby系统，OS X将回应：
 
 ```
 /usr/bin/ruby
+
 ```
 
 您可以检查使用哪个版本的Ruby OS X：
 
 ```
 ruby -v
+
 ```
 
 ## 安装RVM
@@ -60,6 +63,7 @@ ruby -v
 
 ```
 gpg --keyserver hkp://pgp.mit.edu --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
+
 ```
 
 > 3.安装最新版本的Ruby的RVM
