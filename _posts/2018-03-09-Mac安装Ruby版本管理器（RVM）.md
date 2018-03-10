@@ -29,15 +29,21 @@ cd /System/Library/Frameworks/Ruby.framework/Versions;sudo rm Current; sudo ln -
 
 要检查您当前正在使用系统Ruby，请打开终端并输入以下内容：
 
-```which ruby```
+```
+which ruby
+```
 
 如果您使用的是Ruby系统，OS X将回应：
 
-```/usr/bin/ruby```
+```
+/usr/bin/ruby
+```
 
 您可以检查使用哪个版本的Ruby OS X：
 
-```ruby -v```
+```
+ruby -v
+```
 
 ## 安装RVM
 
@@ -45,8 +51,9 @@ cd /System/Library/Frameworks/Ruby.framework/Versions;sudo rm Current; sudo ln -
 
 > 1.安装mpapis公钥。但是，正如安装页面所记录的，您可能需要gpg。Mac OS X不附带gpg，因此在安装公钥之前，您需要安装gpg。我用Homebrew安装了gpg ：
 
- ```
+```
  brew install gnupg 
+
 ```
 
 > 2.安装完gpg之后，你可以安装mpapis公钥：
