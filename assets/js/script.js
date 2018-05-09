@@ -14,11 +14,10 @@ if ($(window).width() <= 1280) {
     tag1       = $('.pl__all'),
     tag2       = $('.iOS'),
     tag3       = $('.Swift'),
-    tag4       = $('.SwiftTips'),
-    tag5       = $('.Python'),
-    tag6       = $('.Mac工具'),
-    tag7       = $('.Other'),
-    tag8       = $('.About');
+    tag4       = $('.Python'),
+    tag5       = $('.Mac工具'),
+    tag6       = $('.Other'),
+    tag7       = $('.About');
     // tag7       = $('.about');
 
 var sidebar    = $('#sidebar'),
@@ -34,7 +33,7 @@ var clickHandler = function(k) {
     window['tag'+k].delay(50).fadeIn(350);
   }
 };
-for (var i = 1; i <= 8; i++) {
+for (var i = 1; i <= 7; i++) {
   $('#js-label' + i).on('click', clickHandler(i));
 }
 
