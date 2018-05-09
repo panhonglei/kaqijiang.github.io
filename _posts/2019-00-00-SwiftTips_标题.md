@@ -2,8 +2,8 @@
 date: 2018-05-08 12:00:00
 layout: post
 title: 【】Tips_ss
-category: SwiftTips
-tags: SwiftTips
+category: Swift
+tags: Swift
 keywords: SwiftTips
 description: GitHub上的小项目，整理总结。
 ---
