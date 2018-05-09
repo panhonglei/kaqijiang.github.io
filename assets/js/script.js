@@ -14,10 +14,11 @@ if ($(window).width() <= 1280) {
     tag1       = $('.pl__all'),
     tag2       = $('.iOS'),
     tag3       = $('.Swift'),
-    tag4       = $('.Python'),
-    tag5       = $('.Mac工具'),
-    tag6       = $('.Other'),
-    tag7       = $('.About');
+    tag4       = $('.SwiftTips'),
+    tag5       = $('.Python'),
+    tag6       = $('.Mac工具'),
+    tag7       = $('.Other'),
+    tag8       = $('.About');
     // tag7       = $('.about');
 
 var sidebar    = $('#sidebar'),
